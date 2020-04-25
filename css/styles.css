@@ -281,3 +281,48 @@
     text-decoration: none;
     color: #384670;
 }
+
+@media only screen and (max-width: 360px){
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .header--nav{
+        max-width: 300px;
+        min-width: 0;
+    }
+
+    .header--nav__optionList {
+        justify-content: start;
+        align-items: center;
+    }
+
+    .header--nav__optionList li{
+        width: 90px;
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .technologies{
+        justify-content: center;
+    }
+
+    .contactUs--Form {
+        width: 95%;
+    }
+
+    .contactUs--Form form {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contactUs--message {
+        width: 96%;
+        margin: 10px 0;
+    }
+    
+    .contactUs--send {
+    width: 98%;
+    }
+}
